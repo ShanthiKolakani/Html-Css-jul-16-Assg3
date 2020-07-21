@@ -1,0 +1,35 @@
+<html>
+    <head>
+        <title>Flexbox</title>
+        <style>
+        body{
+            padding:20px;
+            font:1em verdana,Arial,sans-serif;
+        }
+        *{box-sizing:border-box;}
+        p{margin:0 0 1em 0;}
+        .container{
+            border: 5px solid rgb(111,41,97);
+            border-radius:0.5em;
+            padding:10px;
+            display:flex;
+            justify-content: space-evenly;
+        }
+        .item{
+            width:100px;
+            height: 100px;
+            padding:10px;
+            background-color: rgba(111,41,97,0.3);
+            border:2px solid rgba(111,41,97,0.5);
+            
+        }
+    </style>
+    </head>
+    <body>
+        <div class="container">
+            <div class="item">one</div>
+                <div class="item">two</div>
+                <div class="item">three</div>
+            </div>
+    </body>
+</html>
